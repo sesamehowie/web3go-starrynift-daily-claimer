@@ -12,4 +12,6 @@ This is an automation process of claiming StarryNift and Web3Go daily points wit
 Paste your API key into the config.py file
 and leave the desktop app running 
 
+# 4. Fill out the json file in db
+
 # Enjoy!
