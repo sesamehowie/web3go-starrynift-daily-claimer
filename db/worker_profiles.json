@@ -1,0 +1,19 @@
+[
+  {
+    "dolphin_auth_key": "",
+    "ads": [
+      {
+        "metamask_pass": "",
+        "profile_id": ""
+      }
+    ],
+    "dolphin": [
+      {
+        "metamask_pass": "",
+        "profile_names": [
+          ""
+        ]
+      }
+    ]
+  }
+]
