@@ -1,13 +1,13 @@
 import asyncio
 import json
-from os import getcwd
+import os
 from utils.get_data_path import get_data_path
 from loguru import logger
 from config import DOLPHIN_SESSIONS
 from tasks.web3go import Web3Go
 from tasks.starrynift import StarryNift
 
-path = get_data_path(base_path=getcwd(), 'db')
+path = os.path.join(get_data_path(base_path=os.getcwd()), 'worker_profiles.json' + os.sep)
 user_data_json = json.load(open(path))
 dolphin_auth_key = user_data_json[0]['dolphin_auth_key']
 
